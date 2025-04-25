@@ -6,6 +6,11 @@ This script tests the alignment of metadata mapping between native (system) JSON
 # Test dataset
 This experiment uses the metadata records of [Influence of the coating on the interfacial heat transfer coefficient in hot stamping of Al-Si coated 22MnB5 steel](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/3N6JVZ&version=1.0) for testing.
 
+# Method
+1. Load the two (native & croissant) JSON files
+2. Extract the field (file path, file id, data file access url and md5) from the JSON files
+3. Based on the native JSON file md5, join the other fields.
+
 # Findings
 Across all 100 data files in the dataset:
 
