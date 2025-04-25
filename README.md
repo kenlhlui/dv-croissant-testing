@@ -9,8 +9,8 @@ This experiment uses the metadata records of [Influence of the coating on the in
 # Findings
 Across all 100 data files in the dataset:
 
-1. **100% mismatch**: The `contentUrl` values of `fileObject` entries in the Croissant JSON (exporter-generated) do not match those in the native JSON files.  
-2. **94% mismatch**: The `@id` values—constructed from `directoryLabel` + `filename` in the native JSON—do not align with the corresponding entries in the Croissant JSON.
+1. **100% mismatch**: The `contentUrl` values of `fileObject` entries in the Croissant JSON (exporter-generated) do not match those in the native JSON file.  
+2. **94% mismatch**: The `@id` values in the Croissant JSON , do not align with the corresponding entries (i.e. `directoryLabel` + `filename`) in the native JSON file.
 
 # Result replication
 1. Clone the repository
