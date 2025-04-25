@@ -9,7 +9,7 @@ This experiment uses the metadata records of [Influence of the coating on the in
 # Method
 1. Load the two (native & croissant) JSON files
 2. Extract the field (file path, file id, data file access url and md5) from the JSON files
-3. Based on the native JSON file md5, join the other fields.
+3. Based on the native JSON file's MD5, join the other fields.
 
 # Findings
 Across all 100 data files in the dataset:
@@ -31,4 +31,4 @@ Across all 100 data files in the dataset:
    pip install -r requirements.txt
    ```
 4. Run the script in main.ipynb
-5. Read the `borealis_ds_json_vs_croissant` to get the comparison.
+5. Read the `borealis_ds_json_vs_croissant.csv` to get the comparison.
